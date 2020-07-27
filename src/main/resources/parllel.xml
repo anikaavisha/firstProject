@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="first" verbose="1"  thread-count="2">
+  <test name="loginFunctionality1" >
+  <parameter name="user" value="abccom"/>
+  <parameter name="pass" value="abc"/>
+    <classes>
+       <class name="com.testng.ParllelExecution" />
+    </classes>
+  </test>
+  
+  <test name="loginFunctionality2" >
+  <parameter name="user" value="abucom"/>
+  <parameter name="pass" value="abo"/>
+    <classes>
+       <class name="com.testng.ParllelExecution" />
+    </classes>
+  </test>
+ </suite>

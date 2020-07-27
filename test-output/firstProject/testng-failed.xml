@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [firstProject]">
+  <test name="newFunctionlity(failed)">
+    <classes>
+      <class name="com.testng.testngScripts">
+        <methods>
+          <include name="closeApp"/>
+          <include name="openApp"/>
+          <include name="shopping"/>
+        </methods>
+      </class> <!-- com.testng.testngScripts -->
+    </classes>
+  </test> <!-- newFunctionlity(failed) -->
+</suite> <!-- Failed suite [firstProject] -->

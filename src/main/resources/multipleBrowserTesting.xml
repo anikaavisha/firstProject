@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="second" verbose="1" parllel="tests" thread-count="2">
+  <test name="multiB1" >
+   <classes>
+       <class name="com.testng.multiBrowserTesting" />
+    </classes>
+  </test>
+  
+  <test name="multiB2" >
+  <classes>
+       <class name="com.testng.multiBrowserTesting" />
+    </classes>
+  </test>
+ </suite>

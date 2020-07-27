@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="firstProject" verbose="1" >
+  <test name="newFunctionlity" >
+    <classes>
+       <class name="com.testng.testngScripts"/>
+    </classes>
+  </test>
+ </suite>

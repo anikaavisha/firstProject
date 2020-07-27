@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [first]">
+  <test name="loginFunctionality1(failed)">
+    <parameter name="pass" value="abc"/>
+    <parameter name="user" value="abccom"/>
+    <classes>
+      <class name="com.testng.ParllelExecution">
+        <methods>
+          <include name="open" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testng.ParllelExecution -->
+    </classes>
+  </test> <!-- loginFunctionality1(failed) -->
+  <test name="loginFunctionality2(failed)">
+    <parameter name="pass" value="abo"/>
+    <parameter name="user" value="abucom"/>
+    <classes>
+      <class name="com.testng.ParllelExecution">
+        <methods>
+          <include name="open" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.testng.ParllelExecution -->
+    </classes>
+  </test> <!-- loginFunctionality2(failed) -->
+</suite> <!-- Failed suite [first] -->
